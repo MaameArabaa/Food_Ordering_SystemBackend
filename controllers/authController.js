@@ -18,7 +18,7 @@ const Login = async (req,res)=>{
     }
 
     console.log(`User ${fullname} logged in succesfully`)
-    res.status(200).send({message:"User login Successful",user:rows})
+    res.status(200).send({message:"User login Successful",user})
 }
  
 module.exports = { Login }
